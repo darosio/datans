@@ -7,30 +7,50 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://darosio.github.io/datans/</loc>
-  <lastmod>2022-11-12T07:02:00Z</lastmod>
+  <lastmod>2022-11-12T08:42:00Z</lastmod>
  </url>
  <url>
   <loc>http://darosio.github.io/datans/2022/</loc>
-  <lastmod>2022-11-12T07:02:00Z</lastmod>
+  <lastmod>2022-11-12T08:42:00Z</lastmod>
  </url>
  <url>
   <loc>http://darosio.github.io/datans/archive.html</loc>
-  <lastmod>2022-11-12T07:02:00Z</lastmod>
+  <lastmod>2022-11-12T08:42:00Z</lastmod>
  </url>
  <url>
   <loc>http://darosio.github.io/datans/categories/</loc>
-  <lastmod>2022-11-12T07:02:00Z</lastmod>
+  <lastmod>2022-11-12T08:42:00Z</lastmod>
  </url>
  <url>
   <loc>http://darosio.github.io/datans/galleries/</loc>
-  <lastmod>2022-11-12T07:02:00Z</lastmod>
+  <lastmod>2022-11-12T08:42:00Z</lastmod>
  </url>
  <url>
   <loc>http://darosio.github.io/datans/listings/</loc>
-  <lastmod>2022-11-12T07:02:00Z</lastmod>
+  <lastmod>2022-11-12T08:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://darosio.github.io/datans/posts/fluorescence-ratio-theory/</loc>
+  <lastmod>2022-11-12T07:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://darosio.github.io/datans/posts/isosbestic-transformation/</loc>
+  <lastmod>2022-11-12T07:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://darosio.github.io/datans/posts/linear-fitting-with-rpy2/</loc>
+  <lastmod>2022-11-12T07:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://darosio.github.io/datans/posts/pp/</loc>
+  <lastmod>2022-11-12T07:34:00Z</lastmod>
  </url>
  <url>
   <loc>http://darosio.github.io/datans/posts/ratio-simulation/</loc>
-  <lastmod>2022-11-12T07:02:00Z</lastmod>
+  <lastmod>2022-11-12T08:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://darosio.github.io/datans/posts/reading-image-data-in-python/</loc>
+  <lastmod>2022-11-12T07:34:00Z</lastmod>
  </url>
 </urlset>
