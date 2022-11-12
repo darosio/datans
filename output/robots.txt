@@ -1,0 +1,4 @@
+Sitemap: http://darosio.github.io/datans/sitemapindex.xml
+
+User-Agent: *
+Host: darosio.github.io
