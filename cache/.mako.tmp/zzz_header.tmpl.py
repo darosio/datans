@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1668243970.2303362
+_modified_time = 1668244007.9559124
 _enable_loop = True
 _template_filename = 'themes/bnw/templates/zzz_header.tmpl'
 _template_uri = 'zzz_header.tmpl'
@@ -45,10 +45,10 @@ def render_html_header(context):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
-        def html_navigation_links():
-            return render_html_navigation_links(context)
         def html_site_title():
             return render_html_site_title(context)
+        def html_navigation_links():
+            return render_html_navigation_links(context)
         __M_writer = context.writer()
         __M_writer('\n\n    <header id="header" class="navbar">\n        <div class="container">\n            ')
         __M_writer(str(html_site_title()))
@@ -65,10 +65,10 @@ def render_html_site_title(context):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
-        show_blog_title = _import_ns.get('show_blog_title', context.get('show_blog_title', UNDEFINED))
-        logo_url = _import_ns.get('logo_url', context.get('logo_url', UNDEFINED))
-        abs_link = _import_ns.get('abs_link', context.get('abs_link', UNDEFINED))
         blog_title = _import_ns.get('blog_title', context.get('blog_title', UNDEFINED))
+        abs_link = _import_ns.get('abs_link', context.get('abs_link', UNDEFINED))
+        logo_url = _import_ns.get('logo_url', context.get('logo_url', UNDEFINED))
+        show_blog_title = _import_ns.get('show_blog_title', context.get('show_blog_title', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n    <div class="brand">\n')
         if logo_url:
@@ -105,8 +105,8 @@ def render_html_site_tagline(context):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
-        show_blog_title = _import_ns.get('show_blog_title', context.get('show_blog_title', UNDEFINED))
         blog_description = _import_ns.get('blog_description', context.get('blog_description', UNDEFINED))
+        show_blog_title = _import_ns.get('show_blog_title', context.get('show_blog_title', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n')
         if show_blog_title and blog_description:
@@ -124,10 +124,10 @@ def render_html_navigation_links(context):
         _import_ns = {}
         _mako_get_namespace(context, 'base')._populate(_import_ns, ['*'])
         rel_link = _import_ns.get('rel_link', context.get('rel_link', UNDEFINED))
-        tuple = _import_ns.get('tuple', context.get('tuple', UNDEFINED))
         navigation_links = _import_ns.get('navigation_links', context.get('navigation_links', UNDEFINED))
-        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
+        tuple = _import_ns.get('tuple', context.get('tuple', UNDEFINED))
         isinstance = _import_ns.get('isinstance', context.get('isinstance', UNDEFINED))
+        lang = _import_ns.get('lang', context.get('lang', UNDEFINED))
         template_hooks = _import_ns.get('template_hooks', context.get('template_hooks', UNDEFINED))
         permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
         __M_writer = context.writer()
