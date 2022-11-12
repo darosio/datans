@@ -681,7 +681,7 @@ REDIRECTIONS = []
 GITHUB_SOURCE_BRANCH = "main"
 GITHUB_DEPLOY_BRANCH = "gh-pages"
 
-# The name of the remote where you wish to push to, using github_deploy.
+# Te name of the remote where you wish to push to, using github_deploy.s
 GITHUB_REMOTE_NAME = "origin"
 
 # Whether or not github_deploy should commit to the source branch automatically
@@ -1347,7 +1347,7 @@ MARKDOWN_EXTENSIONS = [
 # Bundle JS and CSS into single files to make site loading faster in a HTTP/1.1
 # environment but is not recommended for HTTP/2.0 when caching is used.
 # Defaults to True.
-# USE_BUNDLES = True
+USE_BUNDLES = True
 
 # Plugins you don't want to use. Be careful :-)
 # DISABLED_PLUGINS = ["render_galleries"]

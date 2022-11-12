@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1668244008.0784435
+_modified_time = 1668244109.2008266
 _enable_loop = True
 _template_filename = 'themes/bnw/templates/list.tmpl'
 _template_uri = 'list.tmpl'
@@ -28,11 +28,11 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        def content():
-            return render_content(context._locals(__M_locals))
         title = context.get('title', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
         items = context.get('items', UNDEFINED)
+        def content():
+            return render_content(context._locals(__M_locals))
         __M_writer = context.writer()
         __M_writer('\n\n')
         if 'parent' not in context._data or not hasattr(context._data['parent'], 'content'):
@@ -48,11 +48,11 @@ def render_body(context,**pageargs):
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        def content():
-            return render_content(context)
         title = context.get('title', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
         items = context.get('items', UNDEFINED)
+        def content():
+            return render_content(context)
         __M_writer = context.writer()
         __M_writer('\n  <div class="meta-header">\n    <div class="container">\n      <div class="title">\n        ')
         __M_writer(str(title))
