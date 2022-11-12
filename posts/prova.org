@@ -1,0 +1,29 @@
+#+BEGIN_COMMENT
+.. title: prova
+.. slug: prova
+.. date: 2022-11-12 10:20:36 UTC+01:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
+#+END_COMMENT
+
+
+Write your post here.
+
+#+begin_src jupyter-python
+import numpy as np
+#+end_src
+
+#+RESULTS:
+
+#+begin_src jupyter-python
+np.random.rand(10q)
+#+end_src
+
+#+RESULTS:
+: array([0.06043348, 0.00648785, 0.08443837, 0.50304033, 0.24844461,
+:        0.05905919, 0.78133815, 0.01737237, 0.92026531, 0.45143018])
+
