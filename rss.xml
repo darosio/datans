@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Datans</title><link>http://darosio.github.io/datans/</link><description>DATa ANalyses Snippets</description><atom:link href="http://darosio.github.io/datans/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2022 &lt;a href="mailto:daniele.arosio@cnr.it"&gt;Daniele Arosio&lt;/a&gt; </copyright><lastBuildDate>Sat, 12 Nov 2022 08:42:55 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Reading image data in python</title><link>http://darosio.github.io/datans/posts/reading-image-data-in-python/</link><dc:creator>Daniele Arosio</dc:creator><description>&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Datans</title><link>http://darosio.github.io/datans/</link><description>DATa ANalyses Snippets</description><atom:link href="http://darosio.github.io/datans/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2022 &lt;a href="mailto:daniele.arosio@cnr.it"&gt;Daniele Arosio&lt;/a&gt; </copyright><lastBuildDate>Sat, 12 Nov 2022 09:22:14 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>prova</title><link>http://darosio.github.io/datans/posts/prova/</link><dc:creator>Daniele Arosio</dc:creator><description>&lt;p&gt;
+Write your post here.
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;import numpy as np
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;np.random.rand(10q)
+&lt;/pre&gt;&lt;/div&gt;</description><guid>http://darosio.github.io/datans/posts/prova/</guid><pubDate>Sat, 12 Nov 2022 09:20:36 GMT</pubDate></item><item><title>Reading image data in python</title><link>http://darosio.github.io/datans/posts/reading-image-data-in-python/</link><dc:creator>Daniele Arosio</dc:creator><description>&lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
 &lt;div class="prompt input_prompt"&gt;In [2]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
