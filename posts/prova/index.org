@@ -19,11 +19,28 @@ import numpy as np
 
 #+RESULTS:
 
-#+begin_src jupyter-python
-np.random.rand(10q)
+#+begin_src jupyter-python :pandoc t :export results
+np.random.rand(10)
 #+end_src
 
 #+RESULTS:
-: array([0.06043348, 0.00648785, 0.08443837, 0.50304033, 0.24844461,
-:        0.05905919, 0.78133815, 0.01737237, 0.92026531, 0.45143018])
+: array([0.14112084, 0.97748241, 0.8517112 , 0.67123382, 0.20358528,
+:        0.04544144, 0.67428089, 0.50548915, 0.13179855, 0.10245372])
+
+
+#+begin_src jupyter-python :pandoc t :export results
+import matplotlib.pyplot as plt
+#+end_src
+
+#+RESULTS:
+
+#+begin_src jupyter-python :pandoc t :export results
+plt.plot(range(10))
+#+end_src
+
+#+RESULTS:
+:RESULTS:
+| <matplotlib.lines.Line2D | at | 0x7f396a2b5810> |
+[[file:./.ob-jupyter/ff2882ff0e0e7d295c5f142ddc8379d6846ffffc.png]]
+:END:
 
