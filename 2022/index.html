@@ -5,8 +5,6 @@
 <meta name="description" content="DATa ANalyses Snippets">
 <meta name="viewport" content="width=device-width">
 <title>Posts for year 2022 | Datans</title>
-<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link href="../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
 <link href="../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
@@ -17,19 +15,27 @@
 <!--[if lt IE 9]><script src="../assets/js/html5shiv-printshiv.min.js"></script><![endif]-->
 </head>
 <body>
-    <a href="#page-content" class="sr-only sr-only-focusable">Skip to main content</a>
-    
-    <section class="social"><ul>
-<li><a href="../index.html" title="Home"><i class="fa fa-home"></i></a></li>
-            <li><a href="../archive.html" title="Archives"><i class="fa fa-folder-open"></i></a></li>
-            <li><a href="../categories/index.html" title="Tags"><i class="fa fa-tags"></i></a></li>
-            <li><a href="https://github.com/darosio/datans" title="My Github"><i class="fab fa-github"></i></a></li>
-    
+    <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <div id="container">
+        
+    <header id="header"><h1 id="brand"><a href="../" title="Datans" rel="home">
+
+        <span id="blog-title">Datans</span>
+    </a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="../archive.html">Archive</a></li>
+                <li><a href="../categories/">Tags</a></li>
+                <li><a href="../rss.xml">RSS feed</a></li>
+
     
 
-        </ul></section><section class="page-content"><div class="content" rel="main">
-            
-<article class="listpage"><header><h1>Posts for year 2022</h1>
+    
+    
+    </ul></nav></header><main id="content"><article class="listpage"><header><h1>Posts for year 2022</h1>
     </header><ul class="postlist">
 <li>
 <time class="listdate" datetime="2022-11-12T10:20:36+01:00" title="2022-11-12 10:20">2022-11-12 10:20</time><a href="../posts/prova/" class="listtitle">prova</a>
@@ -52,19 +58,18 @@
         <li>
 <time class="listdate" datetime="2022-11-12T08:01:55+01:00" title="2022-11-12 08:01">2022-11-12 08:01</time><a href="../posts/ratio-simulation/" class="listtitle">Ratio simulation</a>
 </li>
-    </ul></article><footer id="footer"><p>Contents © 2022         <a href="mailto:daniele.arosio@cnr.it">Daniele Arosio</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+    </ul></article></main><footer id="footer"><p>Contents © 2022         <a href="mailto:daniele.arosio@cnr.it">Daniele Arosio</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
             
         </footer>
 </div>
-    </section><script src="../assets/js/all-nocdn.js"></script><script src="https://polyfill.io/v3/polyfill.js?features=Intl.RelativeTimeFormat.%7Elocale.en"></script><script src="../assets/js/luxon.min.js"></script><!-- fancy dates --><script>
+    
+            <script src="../assets/js/all-nocdn.js"></script><script src="https://polyfill.io/v3/polyfill.js?features=Intl.RelativeTimeFormat.%7Elocale.en"></script><script src="../assets/js/luxon.min.js"></script><!-- fancy dates --><script>
     luxon.Settings.defaultLocale = "en";
     fancydates(2, {"preset": false, "format": "yyyy-MM-dd HH:mm"});
     </script><!-- end fancy dates --><script>
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
-        captions: function(element) {
-            return element.getElementsByTagName('img')[0].alt;
-    }});
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
     </script>
 </body>
 </html>
