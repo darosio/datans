@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://darosio.github.io/datans/</loc>
-  <lastmod>2022-11-12T08:42:00Z</lastmod>
+  <lastmod>2022-11-13T15:01:00Z</lastmod>
  </url>
  <url>
   <loc>http://darosio.github.io/datans/2022/</loc>
@@ -76,6 +76,14 @@
  <url>
   <loc>http://darosio.github.io/datans/listings/</loc>
   <lastmod>2022-11-12T08:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://darosio.github.io/datans/pages/gnocchi-allossolana/</loc>
+  <lastmod>2022-11-13T15:01:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://darosio.github.io/datans/pages/gnocchi-allossolana/index.src.html</loc>
+  <lastmod>2022-11-13T15:01:00Z</lastmod>
  </url>
  <url>
   <loc>http://darosio.github.io/datans/posts/fluorescence-ratio-theory/</loc>
