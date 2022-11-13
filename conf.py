@@ -154,7 +154,18 @@ NAVIGATION_LINKS = {
 NAVIGATION_ALT_LINKS = {DEFAULT_LANG: ()}
 
 # Name of the theme to use.
-THEME = "bnw"
+# THEME = "yesplease"
+THEME = "zen"
+NAVIGATION_LINKS = {
+    DEFAULT_LANG: (
+        ("/index.html", "Home", "fa fa-home"),
+        ("/archive.html", "Archives", "fa fa-folder-open"),
+        ("/categories/index.html", "Tags", "fa fa-tags"),
+        ("https://github.com/darosio/datans", "My Github", "fab fa-github"),
+    )
+}
+
+DATE_FANCINESS = 2
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
